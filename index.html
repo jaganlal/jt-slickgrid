@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular Slickgrid - jtSlickgrid</title>
+</head>
+
+<body>
+	<div ng-app="jtSlickGridApp" ng-controller="jtSlickGridCtrl as ctrl" ng-strict-di>
+    <div class="grid" jt-slickgrid jt-grid-options = "ctrl.jtGridOptions"></div>
+  </div>
+
+  	<link rel="stylesheet" href="http://reebalazs.github.io/SlickGrid-bootstrap/examples/dist/components/bootstrap/docs/assets/css/bootstrap.css" type="text/css">
+	<!-- <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+	<link rel="stylesheet" type="text/css" href="lib/SlickGrid-master/css/smoothness/jquery-ui-1.8.16.custom.css">
+    <link rel="stylesheet" type="text/css" href="lib/SlickGrid-master/slick.grid.css">
+    <link rel="stylesheet" type="text/css" href="lib/SlickGrid-master/controls/slick.columnpicker.css">
+    <link rel="stylesheet" type="text/css" href="lib/SlickGrid-master/controls/slick.pager.css">
+    <link rel="stylesheet" type="text/css" href="lib/SlickGrid-master/plugins/slick.headerbuttons.css">
+    <link rel="stylesheet" type="text/css" href="lib/SlickGrid-master/plugins/slick.headermenu.css">
+
+    <script type="text/javascript" src="lib/jquery/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript" src="lib/SlickGrid-master/lib/jquery.event.drag-2.2.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/slick.core.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/slick.grid.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/slick.dataview.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/slick.editors.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/slick.formatters.js"></script>
+
+    <script type="text/javascript" src="lib/SlickGrid-master/plugins/slick.rowselectionmodel.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/plugins/slick.headerbuttons.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/plugins/slick.headermenu.js"></script>
+
+    <script type="text/javascript" src="lib/SlickGrid-master/controls/slick.pager.js"></script>
+    <script type="text/javascript" src="lib/SlickGrid-master/controls/slick.columnpicker.js"></script>
+
+	<script type="text/javascript" src="lib/angular/angular.js"></script>
+
+	<script type="text/javascript" src="app/app_module.js"></script>
+
+	<script type="text/javascript" src="app/services/logger_service.js"></script>
+	<script type="text/javascript" src="app/services/data_service.js"></script>
+
+	<script type="text/javascript" src="app/layout/jtSlickgridController.js"></script>
+
+	<script type="text/javascript" src="app/components/jtSlickgridDirective.js"></script>
+
+</body>
+
+</html>
